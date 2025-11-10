@@ -10,7 +10,7 @@ def connect_db():
         return mysql.connector.connect(
             host="localhost",
             user="root",            
-            password="Preetham@123",  
+            password="CHANGE IT TO YOUR MYSQL PASSWORD", # DON'T FORGET!!
             database="habit_tracker"
         )
     except mysql.connector.Error as err:
