@@ -5,6 +5,9 @@ It includes emojis so that it can become more interactive!
 
 Follow the instructions
 
+install the following packages
+`pip install tabulate`
+
 **1) Run the following code in MySQL command line**
 
 CREATE DATABASE habit_tracker;
