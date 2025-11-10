@@ -5,7 +5,7 @@ It includes emojis so that it can become more interactive!
 
 Follow the instructions
 
-1) Run the following code in MySQL command line
+**1) Run the following code in MySQL command line**
 
 CREATE DATABASE habit_tracker;
 USE habit_tracker;
@@ -33,4 +33,4 @@ CREATE TABLE habit_log (
     FOREIGN KEY (habit_id) REFERENCES habits(habit_id) ON DELETE CASCADE
 );
 
-2) Change the password in `main.py` to the user's MySQL password.
+**2) Change the password in `main.py` to the user's MySQL password.**
