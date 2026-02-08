@@ -11,6 +11,7 @@ install the following packages
 **1) Run the following code in MySQL command line**
 
 CREATE DATABASE habit_tracker;
+
 USE habit_tracker;
 
 CREATE TABLE users (
